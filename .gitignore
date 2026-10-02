@@ -1,0 +1,35 @@
+# Virtual environments
+.venv*/
+venv/
+ENV/
+.cache/
+
+# Python / build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Training checkpoints, model weights & large data files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.jsonl
+*.parquet
+*.arrow
+*.tar*
+*.zip
+*.h5
+
+# Heavy directories: datasets, checkpoints, runs, logs, outputs
+data/
+runs/
+logs/
+output/
+
+# Environment and secrets
+.env*
+!.env.example

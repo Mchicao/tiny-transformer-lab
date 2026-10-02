@@ -1,0 +1,9 @@
+[mcp_servers.colab]
+command = 'D:\Proyectos_B\tiny-transformer-lab\.cache\vendor\colab-mcp\.venv\Scripts\colab-mcp.exe'
+args = ['--log', 'D:\Proyectos_B\tiny-transformer-lab\logs\app']
+cwd = 'D:\Proyectos_B\tiny-transformer-lab'
+startup_timeout_sec = 30
+tool_timeout_sec = 120
+
+[mcp_servers.colab.env]
+BROWSER = '"C:\Program Files\imput\Helium\Application\chrome.exe" %s'

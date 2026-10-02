@@ -1,0 +1,16 @@
+{
+  "vocab_size": 4096,
+  "dim": 192,
+  "layers": 5,
+  "heads": 6,
+  "context": 256,
+  "attention": "manual",
+  "qk_norm": false,
+  "seed": 43,
+  "precision": "fp16",
+  "microbatch": 4,
+  "gradient_accumulation": 4,
+  "optimizer": "adamw",
+  "ffn": "swiglu",
+  "ffn_hidden": 512
+}

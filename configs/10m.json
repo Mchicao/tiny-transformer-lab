@@ -1,0 +1,14 @@
+{
+  "vocab_size": 8192,
+  "dim": 320,
+  "layers": 6,
+  "heads": 8,
+  "context": 256,
+  "attention": "manual",
+  "qk_norm": false,
+  "seed": 42,
+  "precision": "fp16",
+  "microbatch": 4,
+  "gradient_accumulation": 4,
+  "optimizer": "adamw"
+}

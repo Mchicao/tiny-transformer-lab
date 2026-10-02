@@ -1,0 +1,1 @@
+torch[device-gfx1031]==2.13.0+rocm10.0.0
