@@ -1,6 +1,7 @@
 # Tiny Transformer Lab
 
-A hands-on research and experimentation laboratory for small language models (SLMs).
+A hands-on research and experimentation laboratory for small language models (SLMs).  
+Read the accompanying logs, key concepts, and research notes at **[matiaschicao.cl/lab](https://matiaschicao.cl/lab)**.
 
 The primary objective of this repository is to investigate pre-training and post-training techniques, reproduce and stress-test modern deep learning papers, and explore architectural trade-offs directly on consumer hardware—specifically an AMD Radeon RX 6750 GRE (10GB VRAM, RDNA 2) running ROCm/HIP natively on Windows.
 
